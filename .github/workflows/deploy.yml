@@ -15,9 +15,9 @@ jobs:
         namespace: 'default'
         chart: 'app'
         token: '${{ github.token }}'
-        values: |
+        values: 
           name: foobar
-        value-files: >-
+        value-files: 
         [
           "values.yaml", 
           "values.production.yaml"
