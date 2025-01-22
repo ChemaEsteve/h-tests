@@ -16,9 +16,6 @@ jobs:
         chart: 'app'
         token: '${{ github.token }}'
         values: 
-          name: foobarA
-        value-files: 
-          "values.yaml"
-          "values.production.yaml"
+          name: foobarB
       env:
         KUBECONFIG_FILE: '${{ secrets.KUBECONFIG }}'
